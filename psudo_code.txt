@@ -1,0 +1,60 @@
+===========================
+AI-KG-Manim-Automation Pseudo Code
+===========================
+
+# Main Pipeline
+
+START
+
+1. User Input
+   - Prompt: "Enter concept"  (currently it is hard coded)
+
+
+2. Load Knowledge Graph
+   - Read data/knowledge_graph_sample.json
+   - Parse JSON into Graph object using NetworkX
+   - If graph loading fails, show error and STOP
+
+3. Retrieve Related Concepts
+   - Query the graph to get subgraph of concept_name
+   - If concept_name not found in graph, show message and STOP
+
+4. Generate Slides and Script (AI Module)
+   - Input: concept_name, related subgraph
+   - AI generates:
+       - Slide titles
+       - Bullet points
+       - Narration script
+   - For MVP: use sample_script.json as mock output
+
+5. Format Slides & Script
+   - Input: AI output (slides & narration)
+   - Format into Manim-friendly JSON/dict
+   - Ensure each slide has:
+       - title
+       - content
+       - optional diagram data
+
+6. Animate Slides using Manim
+   - For each slide in formatted slides:
+       - Create scene
+       - Add title, bullet points, diagrams
+       - Apply animations and transitions
+   - Combine all slides into final video
+   - Save video to output/sample_video.mp4
+
+7. Store & Display Output
+   - Save video
+   - Optional: save screenshots of slides in output/screenshots/
+   - Notify user: "Video ready at output/sample_video.mp4"
+
+END
+
+# Notes
+- All modules are orchestrated from pipeline.py
+- The pseudo-code represents the execution flow, not exact Python code
+- Future expansions may include:
+    - Real-time AI generation
+    - Voiceover / TTS
+    - Multi-language support
+    - Interactive domain-specific modules (GIS, Space Tech, CS)
