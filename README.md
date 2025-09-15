@@ -1,15 +1,15 @@
 
-# AI-Powered Knowledge Graph → Manim Animation Automation
+# AI-Powered Knowledge Graph → Manim Animation Automation.🚀📚
 
 ## Project Overview
-This project automates the creation of **educational animated videos** from knowledge-based content.  
+This project automates the creation of **educational animated videos** from knowledge-based content.
 Students can input a **concept**, and the system generates slides, narration scripts, and converts them into a **fully animated video** using **Manim**.
 
 The project combines **Knowledge Graphs, AI/ML-based content generation, and animation automation**, providing a scalable pipeline for educational content.
 
 ---
 
-## Features (MVP)
+## Features (MVP)✨
 - **Knowledge Graph Storage**: Organizes concepts and relationships for concept retrieval.  
 - **AI Slide & Script Generation**: Generates slide titles, bullet points, and narration scripts.  
 - **Slide & Script Formatter**: Structures AI output into a Manim-friendly format.  
@@ -18,7 +18,7 @@ The project combines **Knowledge Graphs, AI/ML-based content generation, and ani
 
 ---
 
-## Folder Structure
+## Folder Structure📁
 
 ```bash
 
@@ -40,18 +40,17 @@ AI-KG-Manim-Automation/
 │ └── pipeline.py # Orchestrator for full demo
 │
 ├── output/
-│ ├── sample_video.mp4 # Generated demo video
-│ └── screenshots/ # Optional slide screenshots
-│
-└── docs/
-├── architecture_diagram.png # High-level flowchart
-└── sample_output.png # Screenshot of output
+│ ├── architecture_diagram.png # High-level flowchart
+| |── sample_output.png # Screenshot of output
+
+
+
 
 ```
 
 ---
 
-## How the MVP Works
+## How the MVP Works ⚙️
 
 ### 1. User Input
 - Student provides a **concept** (Currently it is hard coded. and given data can fed to manim).
