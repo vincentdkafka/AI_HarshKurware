@@ -1,0 +1,5 @@
+# manim==0.17.2       Animation engine: converts slides/scripts into animated videos. This is core library for make animation
+# networkx==3.1       Graph library: builds & queries knowledge graph of concepts
+# numpy==1.26.0       Numerical computing: numpy is used to handles arrays, embeddings, and AI data for fast loading 
+# pandas==2.1.0       Data handling and formatting is done by pandas, It manages AI outputs, formats for Manim animation
+# openai==1.0.0       AI module: generates slides, scripts, and explanations from concepts

@@ -1,0 +1,12 @@
+[
+  {"concept": "Photosynthesis", "relation": "requires", "target": "Sunlight"},
+  {"concept": "Photosynthesis", "relation": "produces", "target": "Oxygen"},
+  {"concept": "Photosynthesis", "relation": "occurs_in", "target": "Chloroplast"}
+]
+
+"""
+this file going to have to samnple data which can be used for manim for animation
+cuurently it is hardcoded but we can used AI models, Biology, CS, or Data Structures textbooks for such data.
+
+website like Wikidata/DBpedia provide data with specific domain
+"""
