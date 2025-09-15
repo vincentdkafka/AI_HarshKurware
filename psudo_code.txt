@@ -52,7 +52,7 @@ END
 
 # Notes
 - All modules are orchestrated from pipeline.py
-- The pseudo-code represents the execution flow, not exact Python code
+- The pseudo-code represents the execution flow, not exact Python code. I have added some basic code from chatgpt to show execution and flow
 - Future expansions may include:
     - Real-time AI generation
     - Voiceover / TTS
